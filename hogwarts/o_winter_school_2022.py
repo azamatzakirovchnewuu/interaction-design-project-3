@@ -3,6 +3,7 @@ def winter_school_2022():
     import streamlit as st
     from data_engine import data
     import altair as alt
+    import pandas as pd
 
     with st.sidebar:
         st.markdown(
