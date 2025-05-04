@@ -3,6 +3,7 @@ def winter_school_2022():
     import streamlit as st
     from data_engine import data
     import altair as alt
+    import pandas as pd
 
     with st.sidebar:
         st.markdown(
@@ -72,7 +73,7 @@ def winter_school_2022():
                 default=["December 23", "December 24"],
             )
 
-        df = data()
+        df = pd.read_csv("winter_2023.csv")
         converter = {
             "December 23": 23,
             "December 24": 24,
