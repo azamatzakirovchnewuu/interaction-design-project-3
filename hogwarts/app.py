@@ -18,11 +18,11 @@ st.set_page_config(page_title="Hogwarts School Dashboard", layout="wide")
 # Your main app code goes here
 
 
-# st.set_page_config(
-#     page_title="Hogwarts School Dashboard",
-#     page_icon=":school:",  
-#     layout="wide"           
-# )
+st.set_page_config(
+    page_title="Hogwarts School Dashboard",
+    page_icon=":school:",  
+    layout="wide"           
+)
 
 
 # with open("aka.css") as f:
