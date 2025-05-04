@@ -11,29 +11,6 @@ from t_winter_school_2024 import win_24
 
 st.set_page_config(page_title="Hogwarts School Dashboard", layout="wide")
 
-# Load custom CSS to hide the Streamlit branding button in the bottom right
-with open("aka.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-# Your main app code goes here
-
-
-# st.set_page_config(
-#     page_title="Hogwarts School Dashboard",
-#     page_icon=":school:",  
-#     layout="wide"           
-# )
-
-
-# with open("aka.css") as f:
-#     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-
-# with open("paka.css") as f:
-#     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-
-
 with st.sidebar:
     options = option_menu(
         menu_title="Hogwarts school",
