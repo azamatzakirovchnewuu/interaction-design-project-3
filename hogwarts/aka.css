@@ -1,0 +1,7 @@
+footer {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0px;
+    width: 0px;
+    pointer-events: none;
+}
